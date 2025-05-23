@@ -47,7 +47,7 @@ public class Grafo{
      * @param peso
      * @return
      */
-    public boolean agregarRelacion(String c1, String c2, double peso) {
+    public boolean agregarConexion(String c1, String c2, double peso) {
         if (!this.ciudadIndice.containsKey(c1) || !this.ciudadIndice.containsKey(c2)) {
             return false;
         }
@@ -62,7 +62,7 @@ public class Grafo{
      * @param c2
      * @return
      */
-    public boolean eliminarRelacion(String c1, String c2) {
+    public boolean eliminarConexion(String c1, String c2) {
         if (!this.ciudadIndice.containsKey(c1) || !this.ciudadIndice.containsKey(c2)) {
             return false;
         }

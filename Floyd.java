@@ -50,7 +50,7 @@ public class Floyd {
      * @param v
      * @return
      */
-    public List<Integer> getCamino(int u, int v) {
+    public static List<Integer> getCamino(int u, int v) {
         // Si no hay camino se devuelve null
         if (siguiente[u][v] == -1) return null;
 

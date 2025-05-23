@@ -3,7 +3,7 @@ public class CentroDelGrafo {
      * @param grafo
      * @return
      */
-    public String encontrarCentro(Grafo grafo) {
+    public static String encontrarCentro(Grafo grafo) {
         // Se encuentra la matriz de pesos mínimos
         Floyd.ejecutarFloyd(grafo);
         double[][] menorPeso = Floyd.menorPeso;
