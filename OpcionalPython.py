@@ -78,4 +78,4 @@ def menu_Principal():
             break
 
         else:
-            print("Opción no válida, por favor ingresa una opcion valida")
+            print("Por favor ingresa una opcion valida")
