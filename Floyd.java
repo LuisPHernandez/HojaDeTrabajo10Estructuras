@@ -6,18 +6,18 @@ public class Floyd {
     /**
      *
      */
-    private double[][] menorPeso;
+    private static double[][] menorPeso;
     /**
      *
      */
-    private int[][] siguiente;
+    private static int[][] siguiente;
     
     // Métodos
     // Método para aplicar el algoritmo del Floyd al grafo
     /**
      * @param grafo
      */
-    public void ejecutarFloyd(Grafo grafo) {
+    public static void ejecutarFloyd(Grafo grafo) {
         int n = grafo.getIndiceCiudad().size();
         menorPeso = new double[n][n];
         siguiente = new int[n][n];
