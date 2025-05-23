@@ -6,11 +6,11 @@ public class Floyd {
     /**
      *
      */
-    private static double[][] menorPeso;
+    public static double[][] menorPeso;
     /**
      *
      */
-    private static int[][] siguiente;
+    public static int[][] siguiente;
     
     // Métodos
     // Método para aplicar el algoritmo del Floyd al grafo
